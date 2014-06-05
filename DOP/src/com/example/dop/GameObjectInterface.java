@@ -2,21 +2,20 @@ package game.startFile.dop;
 
 //import java.util.Timer;
 
-public interface GameObjectInterface 
+public interface GameObjectInterface  //Just functions with definitions
 {
-	//Stuff
-	//spriteAnim
-	//curSpriteAnim = this.curSpriteAnim;
-	int height = 0;
-	int width = 0;
-	int x = 0;
-	int y = 0;
-	int vx = 0;
-	int vy = 0;
+	//Stuff go here
+	
+
 //	objectTimer = new Timer;
-	delete()
-	{
-		splice;
-		return 0;
-	}
+	//minDistanceBetweenObjects
+	
+	//for Transformer
+	//void electrify(ObjectTimer);
+	
+	//universal
+	void delete();
 }
+
+
+//look up example code
