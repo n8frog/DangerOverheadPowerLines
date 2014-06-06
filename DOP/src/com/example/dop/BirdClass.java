@@ -1,23 +1,17 @@
-package game.startFile.dop;
 
+package game.startFile.dop;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 
-public class BirdClass implements BirdInterface 
+public class BirdClass extends GameObjectClass implements BirdInterface 
 {
 	Bitmap bird;
-	InputStream inputStream = assetManager.open("bird.png")
-	Bitmap bitmap = BitmapFactory.decodeStream(inputStream)
+	//InputStream inputStream = assetManager.open("bird.png")
+	//Bitmap bitmap = BitmapFactory.decodeStream(InputStream)
 	
-	BirdClass()
+	BirdClass(WorldClass)
 	{
 		
-	}
-	@Override
-	public void electrify() 
-	{
-		// TODO Auto-generated method stub
-
 	}
 
 	@Override
@@ -37,14 +31,14 @@ public class BirdClass implements BirdInterface
 	@Override
 	public int flyAway() 
 	{
-		this.curSpriteAnim.x += this.vy;
-		this.curSriteAnim.x = this.vx;
-		if(this.y == 0 || this.x == 0 || this.x == canvas.width)
-		{
-			delete() bird;
-			bitmap.recycle();
-		}
-		return 0;
+		//this.curSpriteAnim.x += this.vy;
+		//this.curSriteAnim.x = this.vx;
+	//	if(this.y == 0 || this.x == 0 || this.x == canvas.width)
+	//	{
+	//		delete() bird;
+	//		bitmap.recycle();
+	//	}
+	//	return 0;
 		return 0;
 	}
 
@@ -53,8 +47,8 @@ public class BirdClass implements BirdInterface
 	{
 		// TODO Auto-generated method stub
 		//bombs.push()
-		object.push(bomb)
-		return 0;
+	//	World.Add.Bomb
+	//	return 0;
 	}
 
 }

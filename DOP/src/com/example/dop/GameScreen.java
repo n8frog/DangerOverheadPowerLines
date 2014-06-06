@@ -52,8 +52,7 @@ public class GameScreen extends Screen {
 			if(event.type == TouchEvent.TOUCH_DOWN) {
 				// Do something
 				if(event.x < world.player.x) // this isn't going to work - need to research more from textbook and online
-			} // in text mrNom example movement is implemented by calling a member function of the snake class
-			// we could do similar here example: world.player.moveLeft();
+			}
 		}
 	}
 	
@@ -83,17 +82,15 @@ public class GameScreen extends Screen {
 		}
 	}
 	
-	@Override
 	public void present(float deltaTime) { // renders game objects, uses deltaTime
-		Graphics g = game.getGraphics();
 		
 	}
 
 
 	@Override
 	public void pause() {
-		if(state == GameState.Running)
-			state = GameState.Paused;
+		// TODO Auto-generated method stub
+		
 	}
 
 

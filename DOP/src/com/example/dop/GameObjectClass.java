@@ -2,6 +2,7 @@ package game.startFile.dop;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import java.util.Timer;
 
 public abstract class GameObjectClass implements GameObjectInterface 
 {
@@ -12,6 +13,7 @@ public abstract class GameObjectClass implements GameObjectInterface
 	int y = 0;
 	int vx = 0;
 	int vy = 0;
+	Timer ObjectTimer = new Timer();
 	
 	//spriteAnim
 	//curSpriteAnim = this.curSpriteAnim;
@@ -25,20 +27,10 @@ public abstract class GameObjectClass implements GameObjectInterface
 		this.vy = 10;
 	}
 	
-	void delete()
+	public void delete()
 	{
 		//	splice;
 	}
-	
-	//void electrify(ObjectTimer)
-	//{
-	//	if (player is on power line)
-	//	{
-	//		electrocutePlayer();
-	//	}
-	//	return 0;
-	//}
-	//birds
 	
 	//function implementation goes here
 	//function declaration go in Interface

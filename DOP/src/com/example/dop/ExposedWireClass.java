@@ -1,12 +1,7 @@
 package game.startFile.dop;
 
-public class ExposedWireClass implements ExposedWireInterface {
-
-	@Override
-	public void electrify() {
-		// TODO Auto-generated method stub
-
-	}
+public class ExposedWireClass implements ExposedWireInterface 
+{
 
 	@Override
 	public void delete()
@@ -16,10 +11,10 @@ public class ExposedWireClass implements ExposedWireInterface {
 	}
 
 	@Override
-	public void isTouched() 
+	public void isTouched(/*PlayerClass*/) 
 	{
 		// TODO Auto-generated method stub
-		electrocutePlayer();
+		//electrocutePlayer();
 	}
 
 }

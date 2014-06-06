@@ -2,18 +2,10 @@ package game.startFile.dop;
 
 //import java.util.Timer;
 
-public interface GameObjectInterface  //Just functions with definitions
+public interface GameObjectInterface  //Just functions
 {
 	//Stuff go here
-	
-
-//	objectTimer = new Timer;
 	//minDistanceBetweenObjects
-	
-	//for Transformer
-	//void electrify(ObjectTimer);
-	
-	//universal
 	void delete();
 }
 
