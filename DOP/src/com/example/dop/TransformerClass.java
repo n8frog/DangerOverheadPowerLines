@@ -1,9 +1,11 @@
 package game.startFile.dop;
 
-public class TransformerClass implements TransformerInterface 
+import java.util.Timer;
+
+public class Transformer extends GameObjectClass implements TransformerInterface 
 {
-	//int TTimer = 0;
 	
+	Timer electrifyTimer = new Timer();
 	@Override
 	public void electrify() 
 	{

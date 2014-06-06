@@ -1,6 +1,6 @@
 package game.startFile.dop;
 
-public class CloudClass implements CloudInterface 
+public class Cloud extends GameObjectClass implements CloudInterface 
 {
 
 	@Override

@@ -4,7 +4,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import java.util.Timer;
 
-public abstract class GameObjectClass implements GameObjectInterface 
+public abstract class GameObject implements GameObjectInterface 
 {
 	
 	int height = 0;
@@ -13,12 +13,12 @@ public abstract class GameObjectClass implements GameObjectInterface
 	int y = 0;
 	int vx = 0;
 	int vy = 0;
-	Timer ObjectTimer = new Timer();
+
 	
 	//spriteAnim
 	//curSpriteAnim = this.curSpriteAnim;
 	
-	public GameObjectClass(double x0, double y0, double q0)
+	public GameObject(double x0, double y0, double q0)
 	{
 		this.width = bitmap.getWidth();
 		this.height = bitmap.getHeight();

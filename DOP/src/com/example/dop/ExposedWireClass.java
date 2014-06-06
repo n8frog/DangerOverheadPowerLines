@@ -1,6 +1,6 @@
 package game.startFile.dop;
 
-public class ExposedWireClass implements ExposedWireInterface 
+public class ExposedWire extends GameObjectClass  implements ExposedWireInterface 
 {
 
 	@Override
