@@ -3,7 +3,8 @@ package com.example.dop;
 import android.content.Context;
 import android.view.View;
 
-public class World {
+public class WorldClass 
+{
 
 	public Enemy enemies []; // pool of enemy objects - size 6 objects
 	public Obstacle obstacles []; // pool of obstacle objects - size 5 objects
@@ -12,7 +13,10 @@ public class World {
 	public BackgroundCloud bgclouds []; // pool of cloud objects - size 4 objects
 	public PowerLine powerlines []; // pool of power line objects - size 3 objects
 	public Turd turds []; // pool of bird turd objects - size 10 objects?
+	//functionality in the BirdsClass call these "bombs"
+	//the BirdClass requires a "addBomb" function somewhere here in the world class
 	public Player player; // the player object
+	//Player requires a "electrocutePlayer" function that is called by the Transformers and ExposedWire classes
 	public Cat cat;	// the cat object
 	public Camera camera; // the camera view object
 	
