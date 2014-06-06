@@ -1,0 +1,3 @@
+Any updates I make to the files, will likely require anyone else to rename
+package game.startFile.dop;
+to whichever you use.
