@@ -1,12 +1,12 @@
-package game.startFile.dop;
+package com.example.dop;
 
 import android.graphics.Bitmap;
+//import android.graphics.PixMap
 import android.graphics.BitmapFactory;
 import java.util.Timer;
 
 public abstract class GameObject implements GameObjectInterface 
 {
-	
 	int height = 0;
 	int width = 0;
 	int x = 0;
@@ -14,15 +14,14 @@ public abstract class GameObject implements GameObjectInterface
 	int vx = 0;
 	int vy = 0;
 
-	
 	//spriteAnim
 	//curSpriteAnim = this.curSpriteAnim;
 	
 	public GameObject(double x0, double y0, double q0)
 	{
-		this.width = bitmap.getWidth();
-		this.height = bitmap.getHeight();
-		Bitmap.Config config = bitmap.getConfig();
+	//	this.width = pixMap.getWidth(); //
+	//	this.height = bitmap.getHeight(); //
+	//	Bitmap.Config config = bitmap.getConfig(); //change bitmap for pixmap
 		this.vx = 0;
 		this.vy = 10;
 	}

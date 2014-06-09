@@ -24,4 +24,5 @@ public class Player {
 	public void pullDown() {
 		
 	}
+	//needs Electrocute function
 }

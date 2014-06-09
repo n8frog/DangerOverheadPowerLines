@@ -1,21 +1,23 @@
 
-package game.startFile.dop;
+package com.example.dop;
 import java.util.Timer;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 
-public class Bird extends GameObjectClass implements BirdInterface 
+public class BirdClass extends GameObject implements BirdInterface 
 {
+	public BirdClass(double x0, double y0, double q0) 
+	{
+		super(x0, y0, q0);
+		// TODO Auto-generated constructor stub
+	}
+
 	Bitmap bird;
 	Timer BombTimer = new Timer();
 	//InputStream inputStream = assetManager.open("bird.png")
 	//Bitmap bitmap = BitmapFactory.decodeStream(InputStream)
 	
-	Bird(World)
-	{
-		
-	}
 
 	@Override
 	public void delete() 
@@ -24,12 +26,12 @@ public class Bird extends GameObjectClass implements BirdInterface
 
 	}
 
-	@Override
-	public void spawn(SpawnLocale) 
+	//@Override
+	/*public void spawn(SpawnLocale) 
 	{
 		// TODO Auto-generated method stub
 
-	}
+	}*/
 
 	@Override
 	public int flyAway() 
@@ -52,6 +54,12 @@ public class Bird extends GameObjectClass implements BirdInterface
 		//bombs.push()
 	//	World.Add.Bomb
 	//	return 0;
+	}
+
+	@Override
+	public void spawn(int x, int y) {
+		// TODO Auto-generated method stub
+		
 	}
 
 }

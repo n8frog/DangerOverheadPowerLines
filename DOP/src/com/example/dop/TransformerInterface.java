@@ -1,9 +1,9 @@
-package game.startFile.dop;
+package com.example.dop;
 
 public interface TransformerInterface extends GameObjectInterface 
 {
 	
-	void electrify(ObjectTimer);
-	void resetTTimer(ObjectTimer);
-	void playerWarning(ObjectTimer);
+	void electrify();
+	void resetTTimer();
+	void playerWarning();
 }
